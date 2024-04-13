@@ -147,6 +147,7 @@
 
 
 
+
 <div class="sidebar" id="sidebar">
 
   <button id="sidebar-button">☰</button>
@@ -398,7 +399,7 @@
 
 
     <!-- Button to show/hide sidebar -->
-    <div class="menu-button" onclick="toggleSidebar()" style= "margin-left: 3vw; margin-top: -1.7vw; background-color: #333;">&#9776;</div>
+    <div class="menu-button" onclick="toggleSidebar()" style= "margin-left: 3vw; margin-top: 1.2vw; background-color: #333;">&#9776;</div>
     
 
 
@@ -498,7 +499,7 @@
     
     
 
- <hr style="border: none; border-bottom: 1vw solid red; margin: 0vw 0; width: 100%; position: relative; left: 0vw;">
+ <hr style="border: none; border-bottom: 1vw solid ; margin: 0vw 0; width: 100%; position: relative; left: 0vw;">
  
  
  
@@ -507,22 +508,12 @@
     
     
     
-<div style="text-align: center; background-color: wheat; padding: 8px;">
-  <h2 style=" color: black; font-size: 6vw;">📋️
-️🆁🅾🅰🅳🅼🅰🅿⏳
-<br>
-
-       
-  </h2>
-     
-     
-     
-     
-       
-
-          
+<div style="display: flex; justify-content: center; align-items: center; background-color: white; height: 9%;">
+  <h2 style="color: black; font-size: 6vw;">📋️
+️🆁🅾🅰🅳🅼🅰🅿⏳</h2>
 </div>
- <hr style="border: none; border-bottom: 1vw solid red; margin: 0vw 0; width: 100%; position: relative; left: 0vw;">
+
+ <hr style="border: none; border-bottom: 1vw solid ; margin: 0vw 0; width: 100%; position: relative; left: 0vw;">
  
 
 
@@ -887,8 +878,29 @@
 
 
    
-<div id="kycContainer" style="display: none; position: absolute; top: 20%; max-width: 80vw;">
-  <h2 style="color: white; margin: 0; margin-left: 4vw; z-index: 10002">KYC Verification</h2>
+<div id="kycContainer" style="display: none; position: absolute; top: 14%; max-width: 80vw;">
+  
+  
+  
+
+
+
+    
+  
+  
+  <p style="background-color: ; color: antiquewhite; padding: 0px; margin-left: 3.8%; width: 70vw; position: relative; top: -3vh; font-size: 2vw; height: 16vh; text-align: ; line-height: 1.5; height: 12vw;">
+
+
+
+    <span style="display: inline-block; transform: translateY(3%); font-weight: bold; letter-spacing: px; background-color: black; border-radius: 2px;color: white;">𝐈𝐝𝐞𝐧𝐭𝐢𝐭𝐲 𝐯𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐢𝐬 𝐜𝐫𝐮𝐜𝐢𝐚𝐥 𝐟𝐨𝐫 𝐞𝐧𝐡𝐚𝐧𝐜𝐢𝐧𝐠 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐚𝐧𝐝 𝐦𝐢𝐭𝐢𝐠𝐚𝐭𝐢𝐧𝐠 𝐥𝐞𝐠𝐚𝐥 𝐢𝐬𝐬𝐮𝐞𝐬. 𝐖𝐡𝐞𝐧 𝐢𝐭 𝐜𝐨𝐦𝐞𝐬 𝐭𝐨 𝐝𝐚𝐭𝐚, 𝐚𝐥𝐥 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐢𝐬 𝐬𝐞𝐜𝐮𝐫𝐞𝐥𝐲 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐚𝐟𝐭𝐞𝐫 𝐯𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐢𝐬 𝐧𝐨𝐭 𝐬𝐡𝐚𝐫𝐞𝐝 𝐰𝐢𝐭𝐡 𝐚𝐧𝐲 𝐭𝐡𝐢𝐫𝐝 𝐩𝐚𝐫𝐭𝐲.
+</span>
+  </p>
+  
+  
+  
+  
+  
+  <h2 style="color: white; margin: 0.5%; margin-left: 3vw; z-index: 10002">KYC Verification</h2>
   <p id="verificationStatus" style="color: red; margin: 0;"><img src="https://firebasestorage.googleapis.com/v0/b/xsun-b171d.appspot.com/o/%D8%AA%D8%B5%D9%85%D9%8A%D9%85%20%D8%A8%D8%AF%D9%88%D9%86%20%D8%B9%D9%86%D9%88%D8%A7%D9%86%20(51).png?alt=media&token=ab8e8367-141c-4599-835c-cd43f478561a" alt="Verification Badge" style="width: 10vw; height: 10vw; vertical-align: middle;"> <span style="position: relative; top: 4%;">You are not verified yet.</span></p>
 
   <form id="kycForm" enctype="multipart/form-data" style="font-size: 2.5vw; margin: 0; margin-left: 4vw;">
@@ -904,11 +916,11 @@
       <input type="text" id="nationalID" name="nationalID" required style="margin: 0;">
     </div>
     
-<p style="background-color: ; color: antiquewhite; padding: 0px; margin-left: 15%; width: 70vw; position: absolute; top: -16vh; font-size: 3.5vw; height: 16vh; text-align: center; line-height: 1.5; height: 12vw;">
+
+
  
 
-<span style="display: inline-block; transform: translateY(3%); font-weight: bold; letter-spacing: 1px; background-color: ; border-radius: 5px;color: wheat;">𝐈𝐃𝐄𝐍𝐓𝐈𝐓𝐘 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍<br>𝐈𝐒 𝐓𝐄𝐌𝐏𝐎𝐑𝐀𝐑𝐈𝐋𝐘 𝐔𝐍𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄<br></span>
-</p>
+
 
     <div class="menu-button" onclick="toggleSidebar()">&#9776;</div>
     
@@ -929,17 +941,15 @@
     </div>
     <label for="selfieButton" style="color: white; margin: 0; display: block;">Take a Selfie:</label>
     <input type="file" accept="image/*" id="selfieButton" name="selfieButton" capture="user" onclick="openCamera()" required style="margin: 0;">
-<button type="submit" style="margin: 13px; transform: translateY(-0px) translateX(60px); background-color: dodgerblue; color: white;">Submit KYC</button>
-<br> <br> 
+ <button id="submitBtn" style="margin: 13px; transform: translateY(-0px) translateX(60px); background-color: dodgerblue; color: white;">Submit KYC</button>
 
-<p2>
   
-</style>Identity verification is crucial for enhancing security and mitigating legal issues. When it comes to data, all information is securely deleted after verification and is not shared with any third party.
-</p2>
-
 
     
-  
+     
+<div id="confirmationMessage" class="confirmationMessage" style="display: none;">  
+    𝐈𝐃𝐄𝐍𝐓𝐈𝐓𝐘 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐓𝐈𝐎𝐍<br>𝐓𝐄𝐌𝐏𝐎𝐑𝐀𝐑𝐈𝐋𝐘 𝐔𝐍𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄
+</div>
 
 
 
@@ -1069,8 +1079,10 @@
 
 
 
-   
-   
+<div id="loadingIndicator" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+  <div class="spinner" style="display: inline-block; vertical-align: middle;"></div>
+</div>
+
    
    
    
@@ -1120,7 +1132,24 @@
 
 
 
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #333;
+  animation: spin 1s linear infinite;
+  border-left-color: white;
+}
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 
 
@@ -1172,7 +1201,7 @@
 
 #roadMapContainer {
   display: none;
-  height: 200vh; /* تحديد الارتفاع لحجم الشاشة بالكامل */
+  height: 175vh; /* تحديد الارتفاع لحجم الشاشة بالكامل */
   
 }
 
@@ -1453,7 +1482,7 @@ border-radius: px;
             /* Start hidden off-screen */
             top: 0;
             width: 240px;
-            height: 90%;
+            height: 91%;
             background-color: black;
             overflow-x: hidden;
             padding-top: 20px;
@@ -1879,10 +1908,29 @@ h1 {
 }
 
 
-
+        #authForm {
+          display: none;
+          /* إخفاء واجهة التسجيل عند تحميل الصفحة */
+        }
   
-  
 
+
+
+
+
+.confirmationMessage {
+ background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+   width: 60%;
+}
   
    </style>
    
@@ -2132,9 +2180,7 @@ const updateBalanceInDatabase = async (newBalance) => {
 
 
         
-        
-
-
+       
 
         const saveMiningData = () => {
             const user = auth.currentUser;
@@ -2661,33 +2707,46 @@ const showMessage = (message) => {
                       
           
         document.addEventListener('DOMContentLoaded', async () => {
-    checkAuthState();
+    
+    
+checkAuthState();
 
-    const user = auth.currentUser;
-    if (user) {
-        await loadUserData(user.email);
-    }
-    
-    if (user && miningTime > 0) {
-        startMining();
-    }
-    
-    signInButton.addEventListener('click', userSignIn);
-    signUpButton.addEventListener('click', userSignUp);
-    
-    goToSignupButton.addEventListener('click', () => {
-        signupForm.style.display = 'block';
-        authForm.style.display = 'none';
-    });
-    goToSigninButton.addEventListener('click', () => {
-        authForm.style.display = 'block';
-        signupForm.style.display = 'none';
-    });
+const user = auth.currentUser;
+if (user) {
+    showLoadingIndicator(); // عرض شريط التحميل
+    loadUserData(user.email);
+}
+
+if (user && miningTime > 0) {
+    startMining(); // بدء التعدين دون إعادة تحميل الصفحة
+}
+
+signInButton.addEventListener('click', userSignIn);
+signUpButton.addEventListener('click', userSignUp);
+
+goToSignupButton.addEventListener('click', () => {
+    signupForm.style.display = 'block';
+    authForm.style.display = 'none';
+});
+goToSigninButton.addEventListener('click', () => {
+    authForm.style.display = 'block';
+    signupForm.style.display = 'none';
 });
 
-  
-  
-  
+window.addEventListener('load', hideLoadingIndicator); // إخفاء شريط التحميل بمجرد اكتمال تحميل الموقع
+
+function showLoadingIndicator() {
+    const loadingIndicator = document.getElementById('loadingIndicator');
+    loadingIndicator.style.display = 'block';
+}
+
+function hideLoadingIndicator() {
+    const loadingIndicator = document.getElementById('loadingIndicator');
+    loadingIndicator.style.display = 'none';
+}
+
+
+        });
         
 const usersRef = collection(db, "Users");
 
@@ -2894,6 +2953,20 @@ window.addEventListener('load', async () => {
     }, 1000);
 });
 
+// إضافة حدث focus لنافذة المتصفح للتحقق من عودة المستخدم إلى التطبيق
+window.addEventListener('focus', async () => {
+    const lastBtcAdditionClickTime = await getLastBtcAdditionClickTimeFromFirestore();
+    if (lastBtcAdditionClickTime !== null) {
+        const currentTime = new Date().getTime();
+        const twentyFourHours = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+        const elapsedTime = currentTime - new Date(lastBtcAdditionClickTime).getTime();
+        if (elapsedTime < twentyFourHours) {
+            const remainingTime = twentyFourHours - elapsedTime;
+            updateCountdownTimer(remainingTime);
+            startCountdown(remainingTime);
+        }
+    }
+});
 
 
 // تحديث الدالة updateBtcBalanceInFirestore لتحديث الرصيد
@@ -3356,6 +3429,28 @@ function generateCode() {
   return "7M4LYdxg";
 }
 
+
+
+
+
+
+var submitBtn = document.getElementById('submitBtn');
+var confirmationMessage = document.getElementById('confirmationMessage');
+
+// إضافة حدث النقر
+submitBtn.addEventListener('click', function() {
+  // تعطيل الزر
+  submitBtn.disabled = true;
+
+  // عرض رسالة التأكيد
+  confirmationMessage.style.display = 'block';
+
+  // إعادة تفعيل الزر بعد ثواني معينة
+  setTimeout(function() {
+    submitBtn.disabled = false;
+    confirmationMessage.style.display = 'none';
+  }, 3000); // 3 ثواني
+});
 
 </script>
 </body>
